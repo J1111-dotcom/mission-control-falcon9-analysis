@@ -3,7 +3,7 @@
 Can we predict whether a SpaceX Falcon 9 booster will successfully land?  
 This project dives deep into Falcon 9 launch records to answer that question using real-world API data, geospatial analysis, and machine learning.
 
-![Dashboard Screenshot](images/dash_app.png)
+![Dashboard Screenshot](mission-control-falcon9-landing/Images/dash_app.png)
 
 ## Project Overview
 
@@ -26,7 +26,7 @@ Mission-Control-Falcon9/ │ ├── notebooks/ │ ├── mission_control_
 - ** Exploratory Data Analysis (EDA)**  
   Used `pandas`, `matplotlib`, and `seaborn` to uncover trends in payload mass, orbit types, and mission success rates.
 
-![EDA Plot Example](images/eda_plot.png)
+![EDA Plot Example](mission-control-falcon9-landing/Images/eda_plot.png)
 
 - ** Geospatial Mapping (Folium)**  
   Interactive map showing launch site locations, proximity to infrastructure (coastlines, roads, cities), and booster success markers.
@@ -34,7 +34,7 @@ Mission-Control-Falcon9/ │ ├── notebooks/ │ ├── mission_control_
 - ** Predictive Modeling**  
   Trained Logistic Regression, SVM, Decision Tree, and KNN classifiers. Best model achieved **83% test accuracy** in predicting landing success.
 
-  ![ML Accuracy Comparison](images/ml_accuracy.png)
+  ![ML Accuracy Comparison](mission-control-falcon9-landing/Images/ml_accuracy.png)
 
 - ** Interactive Dashboard (Dash)**  
   A lightweight web app allowing dynamic filtering by launch site and payload mass to explore success trends visually.
@@ -51,7 +51,7 @@ This project includes two bonus additions that enhance exploration beyond the no
 - ** [Interactive Dashboard: Launch Explorer](app/mission_control_dashboard.py)**  
   A browser-based tool to analyze mission outcomes by launch site, payload mass, and booster version.
 
-  ![Dashboard Screenshot](images/dash_app2.png)
+  ![Dashboard Screenshot](mission-control-falcon9-landing/Images/dash_app2.png)
 
 ## Key Findings
 
