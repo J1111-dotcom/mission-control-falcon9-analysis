@@ -46,7 +46,7 @@ This project includes two bonus additions that enhance exploration beyond the no
 - ** [Geospatial Notebook: Launch Site Mapping](notebooks/mission_control_geospatial.ipynb)**  
   Visualize launch site placement, environmental proximity, and booster success rates with interactive maps.
 
-![Folium Launch Map](images/folium_map.png)
+![Folium Launch Map](mission-control-falcon9-landing/Images/folium_map.png)
 
 - ** [Interactive Dashboard: Launch Explorer](app/mission_control_dashboard.py)**  
   A browser-based tool to analyze mission outcomes by launch site, payload mass, and booster version.
