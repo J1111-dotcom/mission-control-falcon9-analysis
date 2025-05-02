@@ -43,7 +43,7 @@ Mission-Control-Falcon9/ │ ├── notebooks/ │ ├── mission_control_
 
 This project includes two bonus additions that enhance exploration beyond the notebook:
 
-- **[Geospatial Notebook: Launch Site Mapping](Notebooks/mission_control_geospatial.ipynb)**  
+- **[Geospatial Notebook: Launch Site Mapping](mission-control-falcon9-landing/Notebooks/mission_control_geospatial.ipynb)**  
   Visualize launch site placement, environmental proximity, and booster success rates with interactive maps.
 
 ![Folium Launch Map](mission-control-falcon9-landing/Images/folium_map.png)
