@@ -20,35 +20,35 @@ Mission-Control-Falcon9/ │ ├── notebooks/ │ ├── mission_control_
 
 ## Core Capabilities
 
-- ** Data Collection & API Integration**  
+- **Data Collection & API Integration**  
   Pulled historical launch data via the SpaceX REST API and enriched it with payload, rocket, and recovery metadata.
 
-- ** Exploratory Data Analysis (EDA)**  
+- **Exploratory Data Analysis (EDA)**  
   Used `pandas`, `matplotlib`, and `seaborn` to uncover trends in payload mass, orbit types, and mission success rates.
 
 ![EDA Plot Example](mission-control-falcon9-landing/Images/eda_plot.png)
 
-- ** Geospatial Mapping (Folium)**  
+- **Geospatial Mapping (Folium)**  
   Interactive map showing launch site locations, proximity to infrastructure (coastlines, roads, cities), and booster success markers.
 
-- ** Predictive Modeling**  
+- **Predictive Modeling**  
   Trained Logistic Regression, SVM, Decision Tree, and KNN classifiers. Best model achieved **83% test accuracy** in predicting landing success.
 
   ![ML Accuracy Comparison](mission-control-falcon9-landing/Images/ml_accuracy.png)
 
-- ** Interactive Dashboard (Dash)**  
+- **Interactive Dashboard (Dash)**  
   A lightweight web app allowing dynamic filtering by launch site and payload mass to explore success trends visually.
 
 ##  Extended Analysis & Interactive Components
 
 This project includes two bonus additions that enhance exploration beyond the notebook:
 
-- ** [Geospatial Notebook: Launch Site Mapping](notebooks/mission_control_geospatial.ipynb)**  
+- **[Geospatial Notebook: Launch Site Mapping](notebooks/mission_control_geospatial.ipynb)**  
   Visualize launch site placement, environmental proximity, and booster success rates with interactive maps.
 
 ![Folium Launch Map](mission-control-falcon9-landing/Images/folium_map.png)
 
-- ** [Interactive Dashboard: Launch Explorer](app/mission_control_dashboard.py)**  
+- **[Interactive Dashboard: Launch Explorer](app/mission_control_dashboard.py)**  
   A browser-based tool to analyze mission outcomes by launch site, payload mass, and booster version.
 
   ![Dashboard Screenshot](mission-control-falcon9-landing/Images/dash_app2.png)
