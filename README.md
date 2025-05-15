@@ -18,17 +18,20 @@ Successful booster landings are central to SpaceX's cost-efficiency and mission 
 
 ```
 Mission-Control-Falcon9/  
-├── notebooks/  
+├── Notebooks/  
 │   ├── mission_control_analysis.ipynb        # Main analysis & ML pipeline  
-│   └── spacex_geo_insights_folium.ipynb      # Geospatial visualization (bonus)  
+│   └── mission_control_geospatial.ipynb      # Geospatial visualization (bonus)  
 │  
-├── app/  
-│   ├── spacex_launch_dashboard.py            # Interactive Dash app  
-│   └── data/  
+├── App/  
+│   ├── mission_control_dashboard.py            # Interactive Dash app  
+│   └── Data/  
 │       └── spacex_launch_dash.csv            # App dataset  
 │  
-├── data/                                     # (Empty placeholder or raw data folder)  
-├── images/                                   # Dashboard screenshots (optional)  
+├── Data/                                     # (Empty placeholder or raw data folder)
+|    ├─ dataset_part_1.csv                    # Main dataset
+|    ├─ falcon9_launch_data_cleaned.csv       # Cleaned dataset
+|    └── spacex_launch_geo.csv                #Geospatial dataset
+├── Images/                                   # Dashboard screenshots (optional)  
 ├── README.md                                 # You're here  
 ```
 
