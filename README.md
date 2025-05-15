@@ -16,7 +16,21 @@ Successful booster landings are central to SpaceX's cost-efficiency and mission 
 
 ## Repo Structure
 
-Mission-Control-Falcon9/ │ ├── notebooks/ │ ├── mission_control_analysis.ipynb # Main analysis & ML pipeline │ ├── spacex_geo_insights_folium.ipynb # Geospatial visualization (bonus) │ ├── app/ │ ├── spacex_launch_dashboard.py # Interactive Dash app │ └── data/ │ └── spacex_launch_dash.csv # App dataset │ ├── data/ # Empty placeholder ├── images/ # For dashboard screenshots (optional) ├── README.md # You're here
+```
+Mission-Control-Falcon9/  
+├── notebooks/  
+│   ├── mission_control_analysis.ipynb        # Main analysis & ML pipeline  
+│   └── spacex_geo_insights_folium.ipynb      # Geospatial visualization (bonus)  
+│  
+├── app/  
+│   ├── spacex_launch_dashboard.py            # Interactive Dash app  
+│   └── data/  
+│       └── spacex_launch_dash.csv            # App dataset  
+│  
+├── data/                                     # (Empty placeholder or raw data folder)  
+├── images/                                   # Dashboard screenshots (optional)  
+├── README.md                                 # You're here  
+```
 
 ## Core Capabilities
 
@@ -88,6 +102,5 @@ This project includes two bonus additions that enhance exploration beyond the no
 
 ## About This Project
 
-This project is part of a larger data science portfolio designed to showcase real-world problem-solving, technical fluency, and storytelling with data.
-
-[🔗 View More Projects](https://github.com/J1111-dotcom)
+This project is part of a broader portfolio showcasing practical applications of data science across analytics, visualization, and machine learning.  
+For more projects, visit [My GitHub Portfolio](https://github.com/dataworksbyj).
